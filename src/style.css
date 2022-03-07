@@ -23,8 +23,13 @@
 .current-info ul {
   padding-left: 3px;
 }
+
 li {
   list-style: none;
+}
+
+#current-temp-icon {
+  position: relative;
 }
 
 .current-temp {
