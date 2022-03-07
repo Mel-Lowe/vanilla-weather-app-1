@@ -7,36 +7,38 @@
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
 }
-.currentCity {
+#currentCity {
   margin-top: 10px;
   font-size: 50px;
   line-height: 1;
   font-weight: 600;
 }
-
-.currentInfo {
+#current-description {
+  text-transform: capitalize;
+}
+.current-info {
   margin-top: 20px;
 }
 
-.currentInfo ul {
+.current-info ul {
   padding-left: 3px;
 }
 li {
   list-style: none;
 }
-.currentTemp {
+.current-temp {
   margin-right: 20px;
   float: right;
 }
 
-.currentTempInteger {
+#currentTempInteger {
   font-size: 80px;
   line-height: 1;
   font-weight: 600;
 }
 
 .currentTempUnits {
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
   line-height: 1;
   top: -34px;
