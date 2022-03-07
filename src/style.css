@@ -2,9 +2,80 @@
   max-width: 600px;
   margin: 30px auto;
   padding: 20px;
+  font-family: "Quicksand", sans-serif;
   border: 1px solid #878787;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+.currentCity {
+  margin-top: 10px;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.currentInfo {
+  margin-top: 20px;
+}
+
+.currentInfo ul {
+  padding-left: 3px;
+}
+li {
+  list-style: none;
+}
+.currentTemp {
+  margin-right: 20px;
+  float: right;
+}
+
+.currentTempInteger {
+  font-size: 80px;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.currentTempUnits {
+  font-size: 30px;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.weatherForecast {
+  margin-top: 20px;
+}
+.day-1 {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(23, 102, 155, 0.2);
+}
+
+.day-2 {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(23, 102, 155, 0.2);
+}
+
+.day-3 {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(23, 102, 155, 0.2);
+}
+.day-4 {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(23, 102, 155, 0.2);
+}
+.day-5 {
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(23, 102, 155, 0.2);
 }
 
 footer {
