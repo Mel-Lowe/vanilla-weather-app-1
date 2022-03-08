@@ -20,6 +20,33 @@ function formatDate(timestamp) {
   let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
+function displayForecast() {
+  let forecastElement = document.querySelector("#weather-forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Mon", "Tues", "Wed", "Thu"];
+  days.forEach(function(day) {
+    forecastHTML =
+      forecastHTML +
+      `
+              <div class="col-2 weather-forecast-tile">
+                <span class="weather-forecast-date">${day}</span>
+                <img
+                  src="https://openweathermap.org/img/wn/01d@2x.png"
+                  width="50"
+                  alt=""
+                />
+                <div class="weather-forecast-temp">
+                  <span id="forecast-temp-max">9°</span> <span>|</span>
+                  <span id="forecast-temp-min">4°</span>
+                </div>
+              </div>
+           
+  `;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
 
 function displayTemperature(response) {
   console.log(response.data);
@@ -79,6 +106,8 @@ function displayCelsiusTemperature(event) {
 }
 
 let celsiusTemperature = null;
+
+displayForecast();
 
 let cityForm = document.querySelector("#city-search-form");
 cityForm.addEventListener("submit", submitCity);

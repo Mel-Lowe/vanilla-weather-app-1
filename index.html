@@ -50,60 +50,45 @@
         </form>
 
         <hr />
-
-        <div class="weatherInfo">
-          <h1 id="currentCity">London, UK</h1>
-          <div class="row">
-            <div class="col-6">
-              <div class="current-info">
-                <ul>
-                  <li>
-                    <span id="current-date">Thursday 15:00</span>,
-                    <span id="current-description">Overcast clouds</span>
-                  </li>
-                  <li>
-                    Humidity: <span id="humidity">75</span>%, Wind:
-                    <span id="wind">0.45</span>km/h
-                  </li>
-                </ul>
+        <div class="mid-section">
+          <div class="weatherInfo">
+            <h1 id="currentCity">London, UK</h1>
+            <div class="row">
+              <div class="col-6">
+                <div class="current-info">
+                  <ul>
+                    <li>
+                      <span id="current-date">Thursday 15:00</span>,
+                      <span id="current-description">Overcast clouds</span>
+                    </li>
+                    <li>
+                      Humidity: <span id="humidity">75</span>%, Wind:
+                      <span id="wind">0.45</span>km/h
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <div class="col-6">
-              <div class="current-temp">
-                <span>
-                  <img
-                    src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
-                    alt="Grey cloud"
-                    id="current-temp-icon"
-                  />
-                </span>
-                <span id="current-temp-integer">11</span>
-                <span class="currentTempUnits">
-                  <a href="#" id="celsius-link" class="active">°C</a> |
-                  <a href="#" id="farenheit-link">°F</a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="weatherForecast">
-          <div class="row">
-            <div class="col-2 weather-forecast-tile">
-              <span class="weather-forecast-date">Sun</span>
-              <img
-                src="https://openweathermap.org/img/wn/01d@2x.png"
-                width="50"
-                alt=""
-              />
-              <div class="weather-forecast-temp">
-                <span id="forecast-temp-max">9°</span> <span>|</span>
-                <span id="forecast-temp-min">4°</span>
+              <div class="col-6">
+                <div class="current-temp">
+                  <span>
+                    <img
+                      src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
+                      alt="Grey cloud"
+                      id="current-temp-icon"
+                    />
+                  </span>
+                  <span id="current-temp-integer">11</span>
+                  <span class="currentTempUnits">
+                    <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="farenheit-link">°F</a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
+          <div class="weatherForecast" id="weather-forecast"></div>
+        </div>
         <hr />
         <footer>
           <small

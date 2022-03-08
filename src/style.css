@@ -1,6 +1,6 @@
 .weatherApp {
   max-width: 650px;
-  margin: 30px auto;
+  margin: 80px auto;
   padding: 20px;
   font-family: "Quicksand", sans-serif;
   border: 1px solid #878787;
@@ -12,6 +12,10 @@ form {
 }
 hr {
   color: rgba(235, 110, 75, 0.4);
+}
+.mid-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #currentCity {
   margin-top: 10px;
