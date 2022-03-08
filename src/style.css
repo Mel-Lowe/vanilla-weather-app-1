@@ -1,11 +1,15 @@
 .weatherApp {
-  max-width: 600px;
+  max-width: 650px;
   margin: 30px auto;
   padding: 20px;
   font-family: "Quicksand", sans-serif;
   border: 1px solid #878787;
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+}
+
+hr {
+  color: rgba(235, 110, 75, 0.4);
 }
 #currentCity {
   margin-top: 10px;
@@ -49,6 +53,16 @@ li {
   position: relative;
   line-height: 1;
   top: -34px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #eb6e4b;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #eb6e4b;
 }
 
 .weatherForecast {
