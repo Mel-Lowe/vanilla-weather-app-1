@@ -80,39 +80,24 @@ a:hover {
 .weatherForecast {
   margin-top: 20px;
 }
-.day-1 {
-  margin: 0 auto;
+.weather-forecast-tile {
+  margin: 10px;
   border-radius: 10px;
   text-align: center;
-  background-color: rgba(23, 102, 155, 0.2);
+  background-color: rgba(117, 122, 121, 0.2);
 }
 
-.day-2 {
-  margin: 0 auto;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgba(23, 102, 155, 0.2);
+.weather-forecast-date {
+  font-weight: 600;
 }
-
-.day-3 {
-  margin: 0 auto;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgba(23, 102, 155, 0.2);
+#forecast-temp-max {
+  color: rgba(26, 135, 83, 1);
+  font-weight: 600;
 }
-.day-4 {
-  margin: 0 auto;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgba(23, 102, 155, 0.2);
+#forecast-temp-min {
+  color: rgba(26, 135, 83, 0.6);
+  font-weight: 600;
 }
-.day-5 {
-  margin: 0 auto;
-  border-radius: 10px;
-  text-align: center;
-  background-color: rgba(23, 102, 155, 0.2);
-}
-
 footer {
   margin-top: 30px;
 }
