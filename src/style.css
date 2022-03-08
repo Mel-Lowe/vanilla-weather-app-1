@@ -30,6 +30,7 @@ li {
 
 #current-temp-icon {
   position: relative;
+  top: -20px;
 }
 
 .current-temp {
