@@ -7,7 +7,9 @@
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
 }
-
+form {
+  margin-bottom: 40px;
+}
 hr {
   color: rgba(235, 110, 75, 0.4);
 }
@@ -42,7 +44,7 @@ li {
   float: right;
 }
 
-#currentTempInteger {
+#current-temp-integer {
   font-size: 80px;
   line-height: 1;
   font-weight: 600;
@@ -53,6 +55,11 @@ li {
   position: relative;
   line-height: 1;
   top: -34px;
+  cursor: default;
+}
+
+.currentTempUnits .active {
+  color: #1a8753;
 }
 
 a:link {
@@ -63,6 +70,11 @@ a:link {
 a:visited {
   text-decoration: none;
   color: #eb6e4b;
+}
+
+a:hover {
+  color: #1a8753;
+  cursor: default;
 }
 
 .weatherForecast {
@@ -102,5 +114,5 @@ a:visited {
 }
 
 footer {
-  margin-top: 40px;
+  margin-top: 30px;
 }

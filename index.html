@@ -28,7 +28,7 @@
   <body>
     <div class="container">
       <div class="weatherApp">
-        <form id="city-search-form" class="mb-4">
+        <form id="city-search-form">
           <div class="row">
             <div class="col-9">
               <input
@@ -77,8 +77,11 @@
                     id="current-temp-icon"
                   />
                 </span>
-                <span id="currentTempInteger">11</span>
-                <span class="currentTempUnits">°C | <a href="#">°F</a></span>
+                <span id="current-temp-integer">11</span>
+                <span class="currentTempUnits">
+                  <a href="#" id="celsius-link" class="active">°C</a> |
+                  <a href="#" id="farenheit-link">°F</a>
+                </span>
               </div>
             </div>
           </div>
@@ -127,7 +130,7 @@
             </div>
           </div>
         </div>
-
+        <hr />
         <footer>
           <small
             >Open source code by
