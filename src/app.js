@@ -110,6 +110,8 @@ function submitCity(event) {
   event.preventDefault();
   let cityInput = document.querySelector("#city-input");
   searchCity(cityInput.value);
+  celsiusLink.classList.add("active");
+  farenheitLink.classList.remove("active");
 }
 
 function displayFarenheitTemperature(event) {
